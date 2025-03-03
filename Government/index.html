@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tender Monitoring System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <img src="img/south-africa.png" alt="SA Flag" class="header-img">
+  Tender Monitoring & Verification System
+</header>
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Tenders</a>
+  <a href="#">Investors</a>
+  <a href="#">Government</a>
+  <a href="#">Contact</a>
+</nav>
+<div class="container">
+  <div class="card">
+    <h2>Register as a Contractor</h2>
+    <p>Sign up to access and apply for public tenders.</p>
+    <button onclick="alert('Feature Coming Soon!')">Register Now</button>
+  </div>
+  <div class="card">
+    <h2>Active Tenders</h2>
+    <p>Browse and apply for the latest government and private tenders.</p>
+    <button onclick="alert('Tenders Listing Feature Coming Soon!')">View Tenders</button>
+  </div>
+  <div class="card">
+    <h2>Investor & Government Dashboard</h2>
+    <p>Monitor project funding and ensure milestone-based payments.</p>
+    <button onclick="alert('Investor Dashboard Coming Soon!')">Go to Dashboard</button>
+  </div>
+</div>
+<div class="calculator">
+  <h2>Tender Cost Calculator</h2>
+  <p>Estimate the cost of your project before bidding.</p>
+  <input type="number" id="materialCost" placeholder="Material Cost (R)">
+  <input type="number" id="laborCost" placeholder="Labor Cost (R)">
+  <input type="number" id="overhead" placeholder="Overhead Costs (R)">
+  <button onclick="calculateTender()">Calculate Total</button>
+  <h3 id="totalCost">Total Cost: R0</h3>
+</div>
+<script src="script.js"></script>
+<div class="vision">
+  <h2>Our Vision</h2>
+  <p>To create a transparent, efficient, and accountable tendering process in South Africa, ensuring the completion of public projects for economic growth and job creation.</p>
+  <img src="img/infrastructure.jpg" alt="Infrastructure Development" class="responsive-img">
+</div>
+<div class="footer">
+  © 2024 Tender Monitoring System | Designed for Transparency and Growth
+</div>
+</body>
+</html>
